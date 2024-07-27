@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+#include<string>
+
+int main() {
+	//整形的输入
+	int a = 0;
+	cout << "请赋值" << endl;
+	cin >> a;
+	cout << "a=" << a << endl;
+
+	//浮点型的输入
+	double d = 0;
+	cout << "请输入浮点型的变量：" << endl;
+	cin >> d;
+	cout << d << endl;
+
+	//字符型的输入
+	char ch = 0;
+	cout << "请输入字符型的变量：" << endl;
+	cin >> ch;
+
+	//字符串的输入
+	string str;
+	cout << "请输入字符串变量：" << endl;
+	cin >> str;
+	cout << str << endl;
+
+	//布尔类型的输入
+	bool b = 0;
+	cout << "请输入布尔类型的变量：" << endl;
+	cin >> b;
+	cout << b << endl;
+
+	system("pause");
+	return 0;
+}
